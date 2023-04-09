@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position:50% 50%;
+    height: 100%;
+  }
+  
+  .contaner {
+    display: flex;
+  }
+    .item {
+      flex: 1 1 100%;
+    }
+    .item + .item {
+      padding-left: 10px;
+    }
+    .item-flex {
+      display: flex;
+      flex-direction: column;
+    }
+    .item-flex {
+      /* img + img { */
+        margin-top:10px;
+      /* } */
+    }
+  .item-flex-img{
+     height: 40%;
+    
+    }
+    .item-flex-img-big{
+     height: 60%;
+      
+    }
+  

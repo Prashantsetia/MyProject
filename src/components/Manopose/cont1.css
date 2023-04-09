@@ -1,0 +1,41 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    font-size: 16px;
+  } */
+  #head2 {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  #two {
+    background-image: url('https://www.menopauseandme.co.uk/-/media/menopauseandmecouk/assets/images/home/glossary.png');
+    background-repeat: no-repeat;
+    /* height: 50rem; */
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .boxL {
+    margin: 5rem;
+    padding: 1rem;
+    flex: 1;
+    float: left;
+    background-color: rgba(235, 150, 238, 0.422);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 15rem;
+    width: 25rem;
+  }
+
+  /* head2 {
+    color: #cc66ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  } */

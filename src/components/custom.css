@@ -1,0 +1,8 @@
+.card-component-body:hover{
+    padding:30px;
+   
+}
+.card-btn:hover{
+    cursor: pointer;
+    opacity:0.7 !important;
+}

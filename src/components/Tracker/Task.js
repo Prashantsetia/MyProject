@@ -1,0 +1,26 @@
+import { FaPencilAlt, FaTimes } from 'react-icons/fa';
+import "./my.css"
+
+const Task = ({ task, onDelete, onEdit }) => {
+    return (
+        <div>
+            <div className="task">
+                <div>
+                    <p className="taskName">
+                        <span className="textBold">Month:</span> {task.text}
+                    </p>
+                    {/* <p className="mail">
+                        <span className="textBold">MAIL:</span> {task.mail}
+                    </p> */}
+                    <p className="taskDate"><span className="textBold">Date of Periods start:</span> {task.day}</p>
+                </div>
+                <div>
+                    <p><FaTimes onClick={() => onDelete(task.id)} className="delIcon" /></p>
+                    <p><FaPencilAlt onClick={() => onEdit(task.id)} className="editIcon" /></p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Task

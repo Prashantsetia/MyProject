@@ -1,0 +1,12 @@
+.vid{
+    width: 393px;
+    height: 244px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

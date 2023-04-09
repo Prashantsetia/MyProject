@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .list {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  a {
+    color: #cc66ff;
+    text-decoration: none;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cc66ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    /* margin-left: 8rem; */
+    text-decoration: none;
+  }
+  .button:hover {
+    background-color: #6633cc;
+    cursor: pointer;
+  }
+  .boxL1 {
+    margin: 2rem;
+    padding: 1rem;
+    flex: 1;
+    float: left;
+    background-color: rgba(235, 150, 238, 0.422);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 23rem;
+    width: 25rem;
+  }
+  #four {
+    background-image: url('https://www.menopauseandme.co.uk/-/media/menopauseandmecouk/assets/images/home/resources.png');
+    background-repeat: no-repeat;
+    height: 32rem;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  /* h2 {
+    color: #cc66ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  } */

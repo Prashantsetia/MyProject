@@ -1,0 +1,10 @@
+.link:hover{
+    color: whitesmoke !important;
+}
+
+.linkdiv{
+    transition: transform .2s; 
+}
+.linkdiv:hover{
+    transform: scale(0.9);
+}

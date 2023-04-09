@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.carousel-inner{
+    height: 450px;
+    border-radius: 40px;
+    background-color: plum;
+}
+.crcontainer{
+    margin-top: 30px;
+}
+/* .carousel-item img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+} */
+#carouselExampleIndicators{
+    width: 70%;
+    margin: auto;
+}
+.item img {
+    width:100%
+  }
+
+.carousel-item{
+    height: 100%;
+    /* display: flex !important; */
+    /* justify-content: space-between; */
+}
+.carousel-itemtwo{
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.inboxname{
+    font-size: 40px;
+    /* font-family: 'Sacramento', cursive; */
+}
+
+.btnbox{
+    width: 60%;
+    /* background: antiquewhite; */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.followbtn{
+    font-size: 25px;
+    width: 25%;
+}

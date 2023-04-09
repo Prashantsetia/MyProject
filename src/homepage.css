@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.firstcontainer{
+    height: 90vh;
+    background-image: url('./images/Frame\ 1.png');
+    /* background-image: url('./images/pexels-felix-mittermeier-956999.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fimg{
+    width: 300px;
+}
+
+.sadayswrite{
+    font-family: 'Sacramento', cursive;
+}
+
+.box2{
+    display: flex;
+}

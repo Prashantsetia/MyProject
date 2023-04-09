@@ -1,0 +1,435 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 1180px) {
+  #carouselExampleIndicators{
+    width: 90% !important;
+  }
+  .schemebox{
+    margin: 55px !important;
+  }
+
+  .tour-main{
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .firstcontainer{
+    flex-direction: column !important;
+  }
+
+  .fimg{
+    width: 250px !important;
+  }
+
+  .writable h1{
+    font-size: 120px !important;
+  }
+
+  .box2 h2{
+    font-size: 3rem !important;
+  }
+
+  .btnboxthree{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .schemebox-insidebox{
+    width: 95% !important;
+  }
+
+  .schemebox{
+    padding: 30px !important;
+  }
+
+  .schemebox h1{
+    font-size: 38px !important;
+  }
+
+  .vid{
+    width: 333px !important;
+  }
+
+  .linkdiv{
+    width: 340px !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 415px) {
+  .firstcontainer{
+    flex-direction: column-reverse !important;
+  }
+
+  #carouselExampleIndicators{
+    width: 95% !important;
+  }
+
+  .writable h1{
+    font-size: 70px !important;
+  }
+
+  .css-1x3gnuq img{
+    width: 105px !important;
+  }
+
+  
+  .box2 h2{
+    font-size: 2rem !important;
+  }
+
+  .carousel-itemtwo{
+    flex-direction: column !important;
+  }
+
+  .lbox{
+    width: 100% !important;
+  }
+
+  .btnbox{
+    width: 100% !important;
+    justify-content: space-evenly !important;
+  }
+
+  .btnbox div h3{
+    font-size: 12px !important;
+  }
+
+  .lbox div img{
+    width: 60px !important;
+  }
+
+  .inboxname{
+    font-size: 30px !important;
+  }
+
+  .inboxname + h3{
+    font-size: 20px !important;
+  }
+
+  .btnboxthree button{
+    font-size: 10px !important;
+  }
+
+  .btnbox button{
+    font-size: 10px !important;
+  }
+
+  .schemebox{
+    padding: 1px !important;
+    margin: 8px !important;
+    border-radius: 15px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .schemebox h1{
+    font-size: 25px !important;
+  }
+
+  .schemebox-insidebox{
+    text-align: center !important;
+    border-radius: 25px !important;
+  }
+  .schemebox-insidebox a h3{
+    font-size: 22px !important;
+  }
+  .schemebox-insidebox a button{
+    font-size: 10px !important;
+    border-radius: 50px !important;
+  }
+  .schemebox-insidebox a + p{
+    font-size: 12px !important;
+  }
+  .schemebox-insidebox img{
+    width: 50% !important;
+    margin-bottom: 15px !important;
+  }
+
+  .vid{
+    width: 130px !important;
+    height: 83px !important;
+  }
+
+  .headt{
+    font-size: 28px !important;
+  }
+
+  .footer-logo img {
+    max-width: 95px !important;
+    margin: auto !important;
+    display: block !important;
+  }
+
+  .top{
+    font-size: 24px !important;
+  }
+  .top img{
+    width: 40px !important;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+  }
+  .navbar-brand{
+    width: 130px !important;
+  }
+
+  .nav-item a{
+    font-size: 14px !important;
+  }
+
+  .mr-auto{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .form-inline{
+    flex-direction: revert;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-inline a button{
+    font-size: 12px;
+  }
+
+  .abtimg{
+    width: 90% !important;
+  }
+
+  .aboutCont div h1{
+    font-size: 25px !important;
+  }
+
+  .aboutCont div p{
+    font-size: 12px !important;
+  }
+
+  .txtdiv{
+    background-color: #f4c7dc !important;
+  }
+
+  .abBox2{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .abdiv1 img{
+    width: 60% !important;
+    display: block;
+    margin: auto;
+  }
+
+  .abdiv2 h2{
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+
+  .abdiv2 ul{
+    font-size: 12px !important;
+    text-align: center;
+  }
+
+  .footer-widget{
+    display: none !important;
+  }
+
+  .footer-content{
+    display: none !important;
+  }
+
+  .footer-menu{
+    display: none !important;
+  }
+
+  .toptobotbox{
+    flex-direction: column !important;
+  }
+
+  .bottotopbox{
+    flex-direction: column-reverse !important;
+  }
+
+  .toptobotbox div+div{
+    width: 100% !important;
+  }
+
+  .toptobotbox div img{
+    display: block;
+    margin: auto;
+    width: 42% !important;
+    margin-bottom: 20px !important;
+  }
+  .bottotopbox div{
+    width: 100% !important;
+  }
+
+  .bottotopbox div+div img{
+    display: block;
+    margin: auto;
+    width: 42% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .boxheadline{
+    font-size: 21px !important;
+    text-align: center !important;
+  }
+
+  .boxheadline+ul{
+    font-size: 12px !important;
+  }
+  .boxheadline+p{
+    font-size: 12px !important;
+  }
+  .boxheadline+p+div{
+    text-align: center !important;
+  }
+
+  .feabtn{
+    margin-top: 0px !important;
+    font-size: 10px;
+  }
+
+  .pspan{
+    font-size: 30px !important;
+  }
+
+  .dietpic{
+    width: 90% !important;
+  }
+
+  .boxR{
+    width: 90% !important;
+    border-radius: 20px !important;
+  }
+
+  .boxR h1{
+    font-size: 2rem !important;
+  }
+
+  .boxR .form-label{
+    font-size: 20px !important;
+  }
+
+  .formdiv1 h2{
+    display: inline !important;
+  }
+
+  .formdiv1 input{
+    width: 50% !important;
+    margin-left: 15px !important;
+  }
+
+  .boxR .form-submit{
+    width: 62px !important;
+    padding: 3px !important;
+    font-size: 14px !important;
+    box-shadow: 0px 0px 4px black;
+    border: 0px !important;
+  }
+
+  .boxL{
+    height: auto !important;
+    width: auto !important;
+    margin: 0px !important;
+  }
+
+  #two{
+    margin: 0px !important;
+  }
+
+  #three{
+    margin: 0px !important;
+    height: auto !important;
+  }
+
+  .boxR1{
+    margin: 0px !important;
+    height: auto !important;
+    width: auto !important;
+  }
+
+  .head2 + p{
+    font-size: 12px !important;
+  }
+
+  .linkdiv{
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    width: 90% !important;
+  }
+
+  .box{
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    background: #aaff9a !important;
+    padding: 5px !important;
+    margin-top: 20px !important;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px !important;
+  }
+  
+  .box h1{
+    font-size: 16px !important;
+  }
+
+  .boxR{
+    margin-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  
+  .writable h1{
+    font-size: 53px !important;
+  }
+  .fimg{
+    width: 169px !important;
+  }
+}
